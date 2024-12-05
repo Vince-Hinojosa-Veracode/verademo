@@ -1,0 +1,8 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Starting Maven build..."
+      - mvn -B package --file app/pom.xml
+      - echo "Completed Maven build successfully!"
